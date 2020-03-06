@@ -69,9 +69,10 @@ h2 {
     font-weight: 900;
     line-height: 32px;
     position: relative;
+    padding-bottom: 40px;
 }
 h2::after {
-    margin-top: 52px;
+    margin-top: 32px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -93,7 +94,7 @@ h2::after {
 .featured-list-item {
     float: left;
     margin-right: 30px;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
     position: relative;
 }
 .featured-list-item:nth-child(4n) {
@@ -104,7 +105,7 @@ h2::after {
 }
 .featured-list-block {
     position: absolute;
-    top: 100%;
+    top: 282px;
 
 }
 .featured-list-block p {
