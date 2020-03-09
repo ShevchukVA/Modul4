@@ -11,7 +11,6 @@ html {
 body {
     font-family: "Open Sans", sans-serif;
     color: #555252;
-    line-height: 26px;
     letter-spacing: -0.02em;
 }
 .clearfix::after {
@@ -39,7 +38,7 @@ img {
 .site-navigation {
     float: right;
     font-size: 14px;
-    line-height: 26px;
+    line-height: 17px;
     list-style: none;
 }
 .site-navigation li {
@@ -54,9 +53,11 @@ img {
     text-transform: uppercase;
     text-decoration: none;
 }
-a[href="stuff"] {
+.site-navigation a:hover,
+.site-navigation a:focus {
     color: #1abc9c;
 }
+
 /* section featured */
 .featured {
     font-family: "Roboto", sans-serif;
@@ -67,7 +68,7 @@ h2 {
     text-align: center;
     font-size: 48px;
     font-weight: 900;
-    line-height: 32px;
+    line-height: 58px;
     position: relative;
     padding-bottom: 40px;
 }
@@ -105,13 +106,13 @@ h2::after {
 }
 .featured-list-block {
     position: absolute;
-    top: 282px;
+    bottom: 0;
 
 }
 .featured-list-block p {
     color: #ffffff;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 22px;
 }
 .featured-list-item:hover .featured-list-name {
     background-color: #1abc9c;
@@ -127,7 +128,7 @@ h2::after {
     width: 200px;
     height: 40px;
     background-color: #323232;
-    padding-top: 4px;
+    padding-top: 8px;
     padding-left: 13px;
 }
 .featured-list-price {
@@ -136,7 +137,7 @@ h2::after {
     height: 40px;
     background-color: #8c8c8c;
     text-align: center;
-    padding-top: 6px;
+    padding-top: 8px;
 }
 
 /* section blog */
@@ -161,7 +162,8 @@ h2::after {
 .blog-list-title {
     font-weight: 600;
     font-size: 18px;
-    margin-bottom: 40px;
+    line-height: 22px;
+    margin-bottom: 44px;
 }
 .blog-list-title::after {
     margin-top: 11px;
@@ -170,9 +172,11 @@ h2::after {
     height: 4px;
     background-color: #4ec6ab;
     content: '';
+    position: absolute;
 }
 .blog-list-text {
     font-size: 14px;
+    line-height: 17px;
     margin-bottom: 14px;
 }
 button {
