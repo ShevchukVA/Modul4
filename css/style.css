@@ -63,28 +63,25 @@ img {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
 }
-h2 {
+.title {
     font-family: "Roboto", sans-serif;
     text-align: center;
     font-size: 48px;
     font-weight: 900;
     line-height: 58px;
     position: relative;
-    padding-bottom: 40px;
+    margin-bottom: 120px;
 }
-h2::after {
-    margin-top: 32px;
+.title::after {
+    margin-top: 27px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 100%;
     transform: translate(-50%, -50%);
     width: 164px;
     height: 7px;
     background-color: #1abc9c;
     content: '';
-}
-.featured-title {
-    margin-bottom: 92px;
 }
 .featured-list {
     list-style: none;
@@ -141,9 +138,6 @@ h2::after {
 }
 
 /* section blog */
-.blog-title {
-    margin-bottom: 82px;
-}
 .blog-list {
     list-style: none;
     margin-bottom: 80px;
@@ -179,7 +173,7 @@ h2::after {
     line-height: 17px;
     margin-bottom: 14px;
 }
-button {
+.blog-button {
     display: block;
     max-width: 160px;
     padding: 18px 40px;
